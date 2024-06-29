@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/form.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="image-section">
+                <img src="Blog1.png" alt="Blog Image">
+            </div>
+            <div class="form-section">
+                <header>
+                    <h1>Post Your Blog</h1>
+                </header>
+                <form id="blogForm">
+                    <fieldset>
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+
+                        <label for="title">Title:</label>
+                        <input type="text" id="title" name="title" required>
+
+                        <label for="content">Content:</label>
+                        <textarea id="content" name="content" required></textarea>
+
+                        <button type="submit">Submit</button>
+                    </fieldset>
+                </form>
+                <p id="errorMessage" class="error-message"></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a href="ENTER HERE">ENTER PORTFOLIO HERE</a>
+    </footer>
+    <script src="assets/js/logic.js"></script>
+    <script src="assets/js/form.js"></script>
+</body>
+</html>
+
