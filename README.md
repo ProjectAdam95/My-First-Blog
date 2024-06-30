@@ -21,19 +21,19 @@
 - Then the user is asked to put in their username or name, title for the post and the content they would like to share.
 - After submitting the user is taken to the blog page where they can view their post and also the 5 most recent posts displayed in the center of the screen.
 - On the form page the user is given the choice of altering the theme from a dark/light mode to suit their preference.
-- If the user wishes to enter another post they may click the Back button to navigate back to the home page.
-- If the user viewing the page wishes to view additional projects by me, a link to my portfolio is at the bottom of the home page and blog page!
+- If the user wishes to enter another post they may click the Back button to navigate back to the landing page.
+- If the user viewing the page wishes to view additional projects by me, a link to my portfolio is at the bottom of the landing page and blog page!
   
 
 Features include:
 - Landing page where the user is prompted to enter a form with inputs for Username, Title and Content the user would like to share.
 - Error message if the user does not enter anything in the input fields.
-- An image on the homepage to add styling to the blog home page.
+- An image on the landing page to add styling to the blog landing page.
 - A submit button that takes the user to the blog page.
 - View of 5 latest posts on the blog page.
 - Toggle button between light/dark mode.
-- Back button so the user can navigate back to the home page if they wish to add another post!
-- Link to my portfolio at the footer of the home page and blog page!
+- Back button so the user can navigate back to the landing page if they wish to add another post!
+- Link to my portfolio at the footer of the landing page and blog page!
 
 
 ###  :file_folder: File Structure
