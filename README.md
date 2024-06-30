@@ -66,7 +66,7 @@ My-First-Blog
 
 ### :rocket: Deployment
 
-- To deploy the website please visit : ENTER WEBSITE HERE
+- To deploy the website please visit : https://projectadam95.github.io/My-First-Blog/
 
 - If this does not work you can navigate to the index.html file in the repossitory to deploy the webpage on your local browser. If you do not have a code editor such as VS code to view the html/css code try clicking the F12 button on your web browser to view the console and navigate through the elements on the page!
 
