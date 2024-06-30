@@ -1,3 +1,5 @@
+/* Below is the styling for the home page or landing page */
+/* Styling for html and body on the landing page */
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color:white;
@@ -6,11 +8,13 @@ body {
     padding: 0;
 }
 
+/* Styling for dark mode when toggled */
 body.dark-mode {
     background-color: #333;
     color: #fff;
 }
 
+/* Styling for the main section */
 main {
     width: 100%;
     height: 100vh;
@@ -19,6 +23,7 @@ main {
     align-items: center;
 }
 
+/* Styling for the container image and the form section */
 .container {
     display: flex;
     width: 80%;
@@ -29,34 +34,37 @@ main {
     overflow: hidden;
 }
 
+/* Styling for the form and image setting*/
+/* flex: 1; so the form and image will grow to fill any available space and shrink proportionally if there isn't enough space. */
 .form-section, .image-section {
     flex: 1;
 }
 
+/* Below is the styling for the form section where the user is prompted to enter his Username, Title and Content */
 .form-section {
     padding: 20px;
 }
 
+/* Styling for the image on the landing page  */
 .image-section img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
+/* Styling for the heading on the landing page */
 h1 {
     text-align: center;
 }
 
+/* Styling for the footer (links to portfolio) */
 footer {
     text-align: center;
     margin-top: 20px;
 }
 
+/* Text colour styling for the footer (links to portfolio) */
 footer a {
-    color: #007bff;
+    color: maroon;
     text-decoration: none;
-}
-
-body.dark-mode footer a {
-    color: #66b2ff;
 }

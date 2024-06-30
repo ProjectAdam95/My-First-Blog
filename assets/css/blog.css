@@ -1,3 +1,5 @@
+/* Below is the styling for the blog page */
+/* Styling for html and body on the blog page */
 html, body {
     margin: 0;
     padding: 0;
@@ -8,11 +10,13 @@ html, body {
     color: var(--text-color, #000);
 }
 
+/* Style for dark mode toggle */
 body.dark-mode {
     --bg-color: #333;
     --text-color: #fff;
 }
 
+/* Styling for header( adds shadow to the header on blog page) */
 header {
     width: 100%;
     display: flex;
@@ -20,23 +24,28 @@ header {
     align-items: center;
     padding: 20px;
     background-color: var(--header-bg, #fff);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     box-sizing: border-box;
 }
 
+/* Styling for dark mode on the header*/
 body.dark-mode header {
     --header-bg: #444;
 }
 
+/* Styling for the h1 element in the header */
 header h1 {
     margin: 0;
 }
 
+
+/* Styling for the navigation controls */
 nav.controls {
     display: flex;
     gap: 10px;
 }
 
+/* Styling for the buttons in the navigation controls */
 nav.controls button {
     padding: 10px;
     cursor: pointer;
@@ -45,14 +54,18 @@ nav.controls button {
     border-radius: 5px;
 }
 
+/* Styling for the hover effect on the buttons in the navigation controls */
 nav.controls button:hover {
     background-color: #bbb;
 }
 
+/* Styling for the active effect on the buttons in the navigation controls */
 body.dark-mode nav.controls button {
     background-color: #666;
 }
 
+
+/* Styling for the main section */
 main {
     flex: 1;
     display: flex;
@@ -64,6 +77,7 @@ main {
     align-items: center;
 }
 
+/* Styling for the section with id of "blogsContainer" */
 section#blogsContainer {
     width: 100%;
     max-width: 1200px;
@@ -73,6 +87,9 @@ section#blogsContainer {
     padding-bottom: 20px;
 }
 
+
+/* Styling for the article elements wich are the blog posts you see on the blog page */
+/* Includes styling for background, border , shadow and padding */
 article {
     background-color: rgba(255, 255, 255, 0.9);
     border: 1px solid #ddd;
@@ -83,21 +100,26 @@ article {
     box-sizing: border-box; 
 }
 
+/* Styling for the article element (BLOG POST) in dark mode  */
 body.dark-mode article {
     background-color: rgba(85, 85, 85, 0.9);
     border-color: #555;
     box-shadow: 0 4px 8px rgba(85, 85, 85, 0.5); 
 }
 
+/* Styling for the h2 elements (HEADING OR TITLE) in the blog posts */
+/* Underline for the heading */
 article h2 {
     margin-top: 10px;
     text-decoration: underline;
 }
 
+/* Styling for the p elements (CONTENT) in the blog posts */
 article p {
     margin: 10px 0;
 }
 
+/* Styling for the footer element with background, padding, shadow, and centering */
 footer {
     text-align: center;
     padding: 10px;
@@ -108,25 +130,32 @@ footer {
     position: relative;
 }
 
+/* Styling for the dark mode on the footer */
 body.dark-mode footer {
     --footer-bg: #444;
 }
 
+
+/* Styling for anchor element in footer (link to portfolio)*/
 footer a {
     color:black;
     text-decoration:none;
 }
 
+/* Styling for the dark mode on the footer (text turns to white for visibvility) */
 body.dark-mode footer a {
     color: white;
 }
 
+
+/* Styling for the display and flex to handle layout and minimum height */
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
+/* Below so main section or the blog takes up remaining space in the flex container  */
 main {
     flex: 1;
 }

@@ -1,17 +1,22 @@
+/* Adding margin to the form for spacing */
+
 form {
     margin-top: 20px;
 }
 
+/* Removing border and padding from the fieldset */
 fieldset {
     border: none;
     padding: 0;
 }
 
+/* Labels above the input/text area (Username, title and content)*/
 label {
     display: block;
     margin-bottom: 5px;
 }
 
+/* Styling for the input and text elements where the user is promted to enter data about their Username, Title and Content */   
 input, textarea {
     width: 100%;
     padding: 8px;
@@ -19,6 +24,7 @@ input, textarea {
     margin-bottom: 15px;
 }
 
+/* Styling for the button element width, background, color, border and cursor */
 button {
     width: 100%;
     padding: 10px;
@@ -29,12 +35,7 @@ button {
     transition: background-color 0.3s ease;
 }
 
+/* Styling for the hover effect on the button element */
 button:hover {
     background-color: #666;
 }
-
-.error-message {
-    color: red;
-    text-align: center;
-}
-
