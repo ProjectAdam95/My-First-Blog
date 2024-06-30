@@ -1,5 +1,5 @@
-/* Below is the styling for the home page or landing page */
-/* Styling for html and body on the landing page */
+/* Below is the styling for the landing page */
+/* Styling for body on the landing page */
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color:white;
@@ -8,7 +8,7 @@ body {
     padding: 0;
 }
 
-/* Styling for dark mode when toggled */
+/* Styling for background colour and text colour when dark mode is toggled */
 body.dark-mode {
     background-color: #333;
     color: #fff;

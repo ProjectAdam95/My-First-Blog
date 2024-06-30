@@ -22,7 +22,7 @@ function handleFormSubmission(event, errorMessageElement) {
 
 
 // Retrieves the values from the form fields with IDs username, title, and content.
-// Trim method to remove and whitespace from values
+// Trim method to remove any whitespace from values
     const username = document.getElementById('username').value.trim();
     const title = document.getElementById('title').value.trim();
     const content = document.getElementById('content').value.trim();

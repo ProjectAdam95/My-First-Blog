@@ -1,4 +1,4 @@
-/* Below is the styling for the blog page */
+/* Below is the styling for the blog posts page*/
 /* Styling for html and body on the blog page */
 html, body {
     margin: 0;
@@ -16,7 +16,7 @@ body.dark-mode {
     --text-color: #fff;
 }
 
-/* Styling for header( adds shadow to the header on blog page) */
+/* Styling for header (adds shadow to the header on blog page) */
 header {
     width: 100%;
     display: flex;
@@ -155,7 +155,7 @@ body {
     min-height: 100vh;
 }
 
-/* Below so main section of the blog takes up remaining space in the flex container  */
+/* Below is for the main section of the blog so it takes up any remaining space in the flex container  */
 main {
     flex: 1;
 }
