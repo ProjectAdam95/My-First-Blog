@@ -91,7 +91,7 @@ Software used
 ##  :camera: Gallery
 Below is a preview photo of the website.
 
-Click here for preview: ENTER PREVIEW WEBSITE HERE FOR WEBSITE.
+Click here for preview photos of webpage: https://imgur.com/a/IROwxSD 
 
 ## :star2: Credit/Acknowledgment
 Adam Todorovic
