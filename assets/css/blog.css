@@ -88,7 +88,7 @@ section#blogsContainer {
 }
 
 
-/* Styling for the article elements wich are the blog posts you see on the blog page */
+/* Styling for the article elements which are the blog posts you see on the blog page */
 /* Includes styling for background, border , shadow and padding */
 article {
     background-color: rgba(255, 255, 255, 0.9);
@@ -142,7 +142,7 @@ footer a {
     text-decoration:none;
 }
 
-/* Styling for the dark mode on the footer (text turns to white for visibvility) */
+/* Styling for the dark mode on the footer (text turns to white for visibility) */
 body.dark-mode footer a {
     color: white;
 }
@@ -155,7 +155,7 @@ body {
     min-height: 100vh;
 }
 
-/* Below so main section or the blog takes up remaining space in the flex container  */
+/* Below so main section of the blog takes up remaining space in the flex container  */
 main {
     flex: 1;
 }
