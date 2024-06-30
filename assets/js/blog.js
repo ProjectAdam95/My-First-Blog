@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (blogs.length === 0) {
         blogsContainer.innerHTML = '<p>No blogs available.</p>';
     } else {
-       // if blogs are found it will Display the 5 latest blogs
+       // if blogs are found it will display the 5 latest blogs
         blogs.reverse().slice(0, 5).forEach(blog => {
             blogsContainer.insertAdjacentHTML('beforeend', `
                 <article>
